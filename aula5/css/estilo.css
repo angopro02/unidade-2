@@ -1,0 +1,76 @@
+#total{
+    width: 960px;
+    height: auto;
+    margin: auto; /*Centraliza a divisão na pagina*/
+}
+#topo{
+    width: 960px;
+    height: auto;
+    float: left;
+    background-color: chocolate;
+}
+#logo{
+    width: 200px;
+    height: 60px;
+    /*margin-top: 10px; top right botton left*/
+    margin: 10px auto;
+    background-color: #CCC;
+}
+#banner{
+    width: 960px;
+    height: 300px;
+    float:  left;
+    background-image: url("../imagem/banner.jpg");
+}
+#menu{
+    width: 210px;
+    height: 265px;
+    float: left;
+    background-image: url("../imagem/menu.png");
+    padding-top: 35px;
+}
+#menu a{
+    color: #FFF;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;/*Maiúsculo*/
+    margin-bottom: 15px;
+  /*  padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    */
+    padding: 2px 0px 2px 8px;/*pode ser feito em uma unica linha*/
+}
+#menu a:hover{
+background-image: url("../imagem/menu.png")
+}
+#conteudo{
+    width: 960px; /*largura*/
+    height: auto;/*altura*/
+    float: left;/*alinhamento*/
+}
+#rodape{
+    width: 960px;/*largura*/
+    height: 25px;/*altura*/
+    float: left;/*alinhamento*/
+}
+.box{
+width: 120px;
+height: 90px;
+float: left;
+border: solid 10px #b28500;
+margin: 0px 10px 20px 10px; 
+}
+body{
+    background-image: url("../imagem/background.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: bottom center;
+}
+h1{
+    background-image: url("../imagem/gradiente.png");
+    color: #FFF;
+    padding: 2px 10px;
+    margin: 20px 0px; 
+}
