@@ -1,0 +1,15 @@
+div#total{
+    width: 960px;
+    height: auto;
+    margin: auto;
+}
+header#topo{
+    width: 960px;
+    height: auto;
+    float: left;
+}
+div#logo{
+    width:200px;
+    height:80px;
+    float: 20px;;
+}
