@@ -1,32 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aula9</title>
+    <title>aula 9 site vertical</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body>
+
+<body id="body">
     <div id="topo">
         <div class="largura-site">
-           <div id="logotipo">
-               <img src="img/logo.png"
-               alt="logo do site"/>
+            <div id="logotipo">
+                <img src="img/logo.png" alt="logo do site" />
+            </div>
+            <div id="menu">
+                <a href="#body">Home</a>
+                <a href="#quemsomos">Quem Somos</a>
+                <a href="#servicos">Nossos Serviços</a>
+                <a href="#contato">Contatos</a>
+            </div>
+            <!--fecha menu-->
         </div>
-           <div id="menu">
-           <a href="#">Home</a>
-           <a href="#">Quem Somos</a>
-           <a href="#">Serviços</a>
-           <a href="#">Contatos</a>      
-         </div><!--fecha menu-->
-       </div><!--fecha largura site-->
-    </div> <!--fecha topo-->
-    <div class="largura site"></div>
-         <div id="home"></div>
-         <div id="quemsomos"></div>
-         <div id="serviços"></div>
-         <div id="contato"></div>
-    </div>     
+        <!--fecha largura site-->
+    </div>
+    <!--fecha topo-->
+
+    <div class="largura-site">
+        <div class="conteudo" id="home">
+
+            <img src="img/destaquehome.jpg" alt="destaque da pagina home" class="imghome">
+            <div id="conteudo-home">
+                <h1>
+                    Bem vindo a Dent Clean!
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse necessitatibus modi nihil ipsa
+                    accusamus
+                    perspiciatis enim ea incidunt provident quas, nesciunt architecto voluptatibus pariatur unde tempora
+                    soluta error quos? Quos!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi beatae, quisquam tempore maiores
+                    totam facilis nostrum libero ad cum, unde neque architecto. Eveniet sunt illo inventore ad? Eaque,
+                    voluptatibus maiores.</p>
+
+                <img src="img/imghome1.jpg" alt="imagem criança " class="imghome" />
+                <img src="img/imghome2.jpg" alt="imagem casal" class="imghome" />
+                <img src="img/imghome3.jpg" alt="moça no dentista" class="imghome" />
+            </div>
+
+        </div>
+        <!--fecha divisão home -->
+
+        <div class="conteudo" id="quemsomos">
+            <h1> Quem Somos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quidem laudantium pariatur hic
+                officia, perferendis et magni facere dicta officiis eius amet recusandae minus, explicabo impedit, sit
+                fugiat eaque voluptate.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae excepturi possimus nam non repudiandae.
+                Corrupti maiores deserunt quidem officia saepe fugit ipsum reiciendis temporibus vitae omnis facere,
+                dolorum veritatis consectetur!</p>
+            <img src="img/destaquequemsomos.jpg" alt="imagem destaque quem somos">
+        </div>
+
+        <div class="conteudo" id="servicos">
+            <h1>Nossos Serviços</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus fuga, autem praesentium consequatur
+                iusto at deleniti placeat eius quo. Maiores fuga est illo. Dolores omnis ratione voluptatum id aperiam.
+                Totam!</p>
+                <img src="img/destaqueservicos.jpg" alt="imagem destaque serviços" class="imgright">
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptates qui velit alias
+                    voluptate. Nesciunt placeat, alias voluptatum cumque beatae neque velit deserunt ipsum vel, amet
+                    praesentium fugiat accusamus libero!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptates qui velit alias
+                    voluptate. Nesciunt placeat, alias voluptatum cumque beatae neque velit deserunt ipsum vel, amet
+                    praesentium fugiat accusamus libero!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptates qui velit alias
+                    voluptate. Nesciunt placeat, alias voluptatum cumque beatae neque velit deserunt ipsum vel, amet
+                    praesentium fugiat accusamus libero!</li>
+            </ul>
+            
+            <div class="conteudo" id="contato">
+                <H1>Contato</H1>
+                <p> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta aspernatur repellendus quas! Neque ratione, numquam possimus ducimus quos rerum impedit tempore excepturi, harum eum, eveniet ad inventore. Repellat, placeat.
+                </p>
+                <img src="img/destaquecontato.jpg" alt="imagem de pessoas" class="imgright">
+                <form action="#">
+                      Nome:<br/>
+                      <input type="text" placeholder="Digite seu nome"></br>
+                      E-mail:<br/>
+                      <input type="text" placeholder="Digite seu me-mail"></br>
+                      Memsagem:<br/>
+                      <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                      <br/>
+                      <input type="submit" value="enviar"/>
+                </form>
+            </div>
+        </div>
+               
+    </div> <!--fecha largura site-->
+      <div id="rodape">
+        DENTCLEAN - todos os direitos reservados.
+      </div>
 </body>
+
 </html>
